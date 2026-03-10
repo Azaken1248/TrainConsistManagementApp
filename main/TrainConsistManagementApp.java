@@ -44,8 +44,7 @@ public class TrainConsistManagementApp {
 		System.out.println("   === Train Consist Management App ===   ");
 		System.out.println("==========================================");
 		
-		// Create a Set to store unique bogie IDs
-		// HashSet stores only unique values
+		// LinkedList maintains insertion order and allows fast inserts
 		List<String> trainConsist = new LinkedList<>();
 		
 		//Display initial consist information
