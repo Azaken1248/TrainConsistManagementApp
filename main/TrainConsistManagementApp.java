@@ -2,10 +2,9 @@ package com.seveneleven.trainconsistmanagementapp.main;
 
 
 import java.util.LinkedHashSet;
-
-
 import java.util.Scanner;
 import java.util.Set;
+
 
 /**
  * =======================================
@@ -45,8 +44,10 @@ public class TrainConsistManagementApp {
 		System.out.println("   === Train Consist Management App ===   ");
 		System.out.println("==========================================");
 		
+
 		// LinkedHashSet preserves order and ensures uniqueness
 		Set<String> formation = new LinkedHashSet<>();
+
 		
 		//Display initial consist information
 		System.out.println("Train initializaed sucessfully");
