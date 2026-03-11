@@ -18,22 +18,21 @@ import java.util.stream.Collectors;
  * MAIN CLASS - TrainConsistManagementApp
  * =======================================
  * 
- * Use Case 10: Count Total Seats in Train
+ * Use Case 11: Validate Train ID and Cargo Code
  * 
  * Description:
- * This class aggregates seating capacity od all bogies
- * into a single total using Stream reduce().
+ * This class validates input formats using Regular Expressions
  * 
  * At this stage, the application:
- * - Creates a list of bogies
- * - Maps bogies to capacity
- * - Reduces values into total
- * - Displays total seat count
+ * - Accepts Train ID input
+ * - Accepts Cargo Code input
+ * - Applies regex validation
+ * - Displays validation result
  * 
- * This maps aggregation logic using reduce().
+ * This maps format validation logic using Pattern matching
  * 
  * @author Developer
- * @version 10.0
+ * @version 11.0
  */
 public class TrainConsistManagementApp {
 
