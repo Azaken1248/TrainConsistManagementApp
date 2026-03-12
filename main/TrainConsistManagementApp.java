@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
  * MAIN CLASS - TrainConsistManagementApp
  * =======================================
  * 
- * Use Case 16: Sort Bogie Names Using Arrays.sort()
+ * Use Case 17: Sort Bogie Names Using Arrays.sort()
  * 
  * Description:
  * This class demonstrates sorting of bogie type names
