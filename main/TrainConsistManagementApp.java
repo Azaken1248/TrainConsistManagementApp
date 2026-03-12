@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  * MAIN CLASS - TrainConsistManagementApp
  * =======================================
  * 
- * Use Case 13: Handle Invalid Bogie Capacity (Custom Exception)
+ * Use Case 14: Handle Invalid Bogie Capacity (Custom Exception)
  * 
  * Description:
  * This class prevents creation of passenger bogies
